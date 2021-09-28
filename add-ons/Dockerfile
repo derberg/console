@@ -28,7 +28,7 @@ ENV CI true
 RUN cd /app/${app_name} && make build
 
 ### Main image ###
-FROM alpine:3.14.0
+FROM alpine:3.14.2
 ARG app_name=add-ons
 
 ### Install nginx package and remove cache ###

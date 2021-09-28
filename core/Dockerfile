@@ -15,7 +15,7 @@ RUN cd /app/${app_name} && \
   make build
 
 ### Main image ###
-FROM alpine:3.14.0
+FROM alpine:3.14.2
 
 ### Install nginx package and remove cache ###
 RUN apk add --update nginx && rm -rf /var/cache/apk/*
