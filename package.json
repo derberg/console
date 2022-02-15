@@ -51,7 +51,6 @@
     "deep-copy": "^1.4.2",
     "deep-equal": "^1.0.1",
     "dompurify": "^2.0.17",
-    "elliptic": ">=6.5.3",
     "exec-sh": "^0.3.4",
     "file-saver": "^2.0.2",
     "fiori-fundamentals": "^1.7.1",
@@ -75,7 +74,8 @@
     "react-sticky": "^6.0.3",
     "recompose": "^0.30.0",
     "styled-components": "4.3.2",
-    "subscriptions-transport-ws": "^0.9.16"
+    "subscriptions-transport-ws": "^0.9.16",
+    "ua-parser-js": "^0.7.24"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -90,6 +90,7 @@
     "@types/styled-components": "^4.1.16",
     "cli-color": "^1.4.0",
     "concurrently": "^5.0.0",
+    "elliptic": ">=6.5.3",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.4.0",
